@@ -1,0 +1,69 @@
+:root{
+    /*MODO CLARO*/
+    --cor-fundo: #ececec;
+    --cor-header: #109e57;
+    --cor-footer:#089b51;
+    --cor-texto:#222;
+    --cor-branco:#fff;
+    --cor-borda:#cecece;
+    --cor-sombra:#ccc;
+}
+
+/*MODO ESCURO*/
+.dark{
+    --cor-fundo:#121212;
+    --cor-header:#1f1f1f;
+    --cor-footer:#2c2c2c;
+    --cor-texto:#f1f1f1;
+    --cor-branco:#1e1e1e;
+    --cor-borda:#444;
+    --cor-sombra:#000;
+}
+
+*{
+    transition: all 0.5 ease;
+}
+
+h1{
+    color: var(--cor-texto);
+}
+
+
+
+
+
+
+
+
+
+#tema{
+position:absolute;
+right: 15px;
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+cursor:pointer;
+background: var(--cor-footer);
+color: var(--cor-branco);
+font-size: 14px;
+background: none;
+font-size: 20px;
+border: none;
+cursor:pointer;
+}
+
+.voltar{
+ position:absolute;
+left: 15px;
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+cursor:pointer;
+background: var(--cor-footer);
+color: var(--cor-branco);
+font-size: 14px;
+background: none;
+font-size: 20px;
+border: none;
+cursor:pointer;
+}
